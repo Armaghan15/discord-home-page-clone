@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+
+
+:root {
+    --brand: #7289da;
+    --home-bg: #2a5ee8;
+    --brand-gradient: linear-gradient(to bottom,#2a5ee8,#7289da);
+    --greyple: #99aab5;
+    --dark-not-black: #2c2f33;
+    --focus-border: #00b0f4;
+    --status-green: #43b581;
+    --text-link: #00b0f4;
+    --off-white: #f6f6f6;
+    --white: #fff;
+    --not-quite-black: #23272a;
+    --not-quite-black-rgb: 35,39,42;
+    --black: #000;
+    --ekko-red: #de2761;
+}
+
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Navbar */
+.navbar {
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar .container .logo {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar .container nav ul {
+  display: flex;
+}
+
+.navbar .container nav ul li {
+  font-size: 16px;
+  margin: 15px;
+  list-style-type: none;
+  transition: .4s ease-in-out;
+}
+
+.navbar .container nav ul li a {
+  text-decoration: none;
+  color: var(--white);
+  transition: .4s ease-in-out;
+}
+
+.navbar .container nav ul li:hover {
+  transform: translateY(-1px);
+}
+
+
+/* Section home */
+.home {
+  color: var(--off-white);
+  height: 83vh;
+  background-image: var(--brand-gradient);
+  display: flex;
+  align-items: center;
+}
+
+.home .home-image-1 {
+ margin-left: -530px;
+ margin-bottom: -180px;
+}
+
+.home .main-home {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home .main-home .text h1 {
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.home .main-home .text p {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+
+.home .main-home .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.home .main-home .buttons .button-dark {
+  margin-left: 20px;
+}
+
+.home .main-home .buttons a {
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+.home .home-image-2 {
+  margin-right: -560px;
+  margin-bottom: -135.2px;
+}
+
+
+
+/* Section huge */
+
+
+/* Section easy */
+
+
+/* Section people */
+
+
+/* Section reliable */
